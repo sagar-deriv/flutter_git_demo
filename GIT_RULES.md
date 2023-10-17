@@ -1,7 +1,7 @@
 ## Commit Rules:
 
-This commits rules is set to ensure all the developers follows a uniform way of writing commits so that it is easy to read the changes made and also automate versioning .
-The commits are based on [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) which is basically a widely followed convention for commits. While writing a commit message to any changes made to code base, make sure it reflects the changes and follows the conventions i.e:
+This commits rules is set to ensure all the developers follows a uniform way of writing commits so that it is easy to read the changes made and also automate versioning.
+The commits are based on [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) which is a widely followed convention for commits. While writing a commit message to any changes made to code base, make sure it reflects the changes and follows the conventions i.e:
 
 ```
 change_type(package_name): short description/subject line...
@@ -10,14 +10,18 @@ Long Description...
 ```
 
 Here,
+
 change_type means the type of changes like `feat`,`fix` and so on.
+
 package_name means which packages this changes is for. This is optional.
+
 short discription/subject line means about the changes
+
 Long Description are optional. Add it if its required to reflect the changes in more detail.
 
 For eg:
 
-Lets say the changes is about implementing a new feature which is about new social login mechanism in deriv_auth package.
+Lets say the changes is about implementing a new feature which is about new social login mechanism in `deriv_auth` package.
 
 ```
 feat(deriv_auth): add ability to sign in with google
