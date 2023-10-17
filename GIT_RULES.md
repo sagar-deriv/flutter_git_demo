@@ -24,10 +24,10 @@ For eg:
 Lets say the changes is about implementing a new feature which is about new social login mechanism in `deriv_auth` package.
 
 ```
-feat(deriv_auth): add ability to sign in with google
+feat(deriv_auth): add UI for sign in page
 
-- create UI for login pages
-- add state functionality
+- create reusable text field using global app theme
+- add bloc for sign in logic implementation
 - add google services for authentication
 ```
 
@@ -47,4 +47,52 @@ More changes types:
 | build         | Builds                     | Changes that affect the build system or external depend­encies (example scopes: gulp, broccoli, npm)          |
 | ci            | Continuous Integr­ations   | Changes to our CI config­uration files and scripts (example scopes: Travis, Circle, Browse­rStack, SauceLabs) |
 
+Optional: If you would like to pre populate your commit box with the commit template then you can do it by adding `.gitmessage` inside `.github` folder to commit template for that project with the following command.(Note: This won't work if you write commit via terminal.)
+
+`git config commit.template "YOUR_PROJECT_PATH/.github/.gitmessage"`
+
 ## PR Rules:
+
+This Rules is set to create a uniform way of submitting Pull requests where all the necessary information for the changes are listed in the title, or description. There is a standard template for creating PR. When you are creating a PR to any repo always make sure:
+
+- you have titled it following conventional pattern also include all the necessary information in it. for eg:
+
+      Title: `feat(deriv_auth): [MOBC-299] Add ability to sign in with google`
+
+
+      Here, The title defines everything about this PR as this pr is about a feature which lets user to log in with google.
+
+- you have commits only relevant to your changes and not other's commit which shouldn't be there.
+
+      Also, it is always better to squash commits that are only relevant to any particular PR. Such as changes requested through PR review. If these changes does not reflects any really meaning or value in the main project history then it is always better to squash such commits into one. It helps to maintain a clean commit history.
+
+      The template looks something like this:
+
+
+      **Clickup link:** https://app.clickup.com/t/20696747/<!-- Ticket id here, Remove this line if this PR is not for a task -->
+
+  **Fixes issue:** #<!-- Issue number here, Remove this line if this PR isn't related to any issue -->
+
+This PR contains the following changes:
+
+<!-- Provide a description or list of changes -->
+
+## Reviewers
+
+<!-- Tag the reviewers of this PR -->
+
+## Pre-launch Checklist
+
+<!-- Put an `x` in all the boxes that apply ([x]) -->
+
+- [ ] I have gone through the code and removed any temporary changes (commented lines, prints, debug statements etc.).
+- [ ] I have fixed any errors/warnings shown by the analyzer/linter.
+- [ ] I have added documentation, comments and logging wherever required.
+- [ ] I have added necessary tests for these changes.
+- [ ] I have ensured all existing tests are passing.
+- [ ] I have followed the style guide.
+- [ ] I have included clickup id and package/app name in the PR title.
+
+## Screenshots
+
+<!-- Remove this section if there aren't any screenshots -->
