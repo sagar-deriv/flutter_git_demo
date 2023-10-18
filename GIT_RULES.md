@@ -60,8 +60,13 @@ This Rules is set to create a uniform way of submitting Pull requests where all 
       Title: `feat(deriv_auth): [MOBC-299] Add ability to sign in with google`
 
 
-      Here, The title defines everything about this PR as this pr is about a feature which lets user to log in with google.
+      Here, The title defines:
+      - what type the changes/PR is about like feat, fix, docs.
+      - which package/app is this PR for.(optional)
+      - the clickup card id
+      - short title that describes the changes
 
+- you have added detail description that gives enough information about the PR.
 - you have commits only relevant to your changes and not other's commit which shouldn't be there.
 
       Also, it is always better to squash commits that are only relevant to any particular PR. Such as changes requested through PR review. If these changes does not reflects any really meaning or value in the main project history then it is always better to squash such commits into one. It helps to maintain a clean commit history.
