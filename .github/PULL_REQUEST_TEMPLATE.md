@@ -3,7 +3,7 @@
 
 This PR contains the following changes:
 
-<!-- Provide a description or list of changes -->
+<!-- Provide a meaningful description or list of changes in this PR -->
 
 ## Reviewers
 
