@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
 
   // This widget is the root of your application.
   //coment by bassam
+  // another comment by bassam
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
