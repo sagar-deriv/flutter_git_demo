@@ -108,7 +108,7 @@ More changes types:
 | revert        | Reverts                    | Reverts a previous commit                                                                                     |
 | refactor      | Code Refact­oring          | A code change that neither fixes a bug nor adds a feature                                                     |
 | test          | Tests                      | Adding missing tests or correcting existing tests                                                             |
-| style         | Styles                     | Changes that do not affect the meaning of the code (white­ -space, format­ting, missing semi-c­olons, etc)    |
+| style         | Styles sdfsdf              | Changes that do not affect the meaning of the code (white­ -space, format­ting, missing semi-c­olons, etc)    |
 | perf          | Perfor­mance Improv­ements | A code change that improves perfor­mance                                                                      |
 | build         | Builds                     | Changes that affect the build system or external depend­encies (example scopes: gulp, broccoli, npm)          |
 | ci            | Continuous Integr­ations   | Changes to our CI config­uration files and scripts (example scopes: Travis, Circle, Browse­rStack, SauceLabs) |
